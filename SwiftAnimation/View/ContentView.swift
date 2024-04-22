@@ -22,11 +22,16 @@ struct ContentView: View {
                 .font(.system(size: 100))
                 .scaleEffect(sizeChanged ? 1.0 : 0.5)
         }
-        .animation(.default, value: colorChanged)
-        .animation(.default, value: sizeChanged)
+        // MARK: - Implicit Animation
+        //        .animation(.default, value: colorChanged)
+        //        .animation(.default, value: sizeChanged)
+        
         .onTapGesture {
-            colorChanged.toggle()
-            sizeChanged.toggle()
+            // MARK: -Explicit Animation
+            withAnimation(.spring(.bouncy, blendDuration: 1.0)){
+                colorChanged.toggle()
+                sizeChanged.toggle()
+            }
         }
     }
 }

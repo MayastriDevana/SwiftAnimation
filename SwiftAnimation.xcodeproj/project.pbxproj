@@ -15,6 +15,7 @@
 		CE554CE82BD61FA300DB96A9 /* MorphingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554CE72BD61FA300DB96A9 /* MorphingAnimation.swift */; };
 		CE554CEA2BD635DA00DB96A9 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554CE92BD635DA00DB96A9 /* TransitionView.swift */; };
 		CE554CED2BD63B8C00DB96A9 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554CEC2BD63B8C00DB96A9 /* FancyButton.swift */; };
+		CE554CF02BD646EA00DB96A9 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554CEF2BD646EA00DB96A9 /* StarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CE554CE72BD61FA300DB96A9 /* MorphingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimation.swift; sourceTree = "<group>"; };
 		CE554CE92BD635DA00DB96A9 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		CE554CEC2BD63B8C00DB96A9 /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		CE554CEF2BD646EA00DB96A9 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CE554CE72BD61FA300DB96A9 /* MorphingAnimation.swift */,
 				CE554CE92BD635DA00DB96A9 /* TransitionView.swift */,
 				CE554CEC2BD63B8C00DB96A9 /* FancyButton.swift */,
+				CE554CEF2BD646EA00DB96A9 /* StarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				CE554CE82BD61FA300DB96A9 /* MorphingAnimation.swift in Sources */,
 				CE554CED2BD63B8C00DB96A9 /* FancyButton.swift in Sources */,
 				CE554CEA2BD635DA00DB96A9 /* TransitionView.swift in Sources */,
+				CE554CF02BD646EA00DB96A9 /* StarView.swift in Sources */,
 				CE554CD42BD6128300DB96A9 /* SwiftAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

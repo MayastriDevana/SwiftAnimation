@@ -13,6 +13,7 @@
 		CE554CDB2BD6128400DB96A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE554CDA2BD6128400DB96A9 /* Preview Assets.xcassets */; };
 		CE554CE62BD6170A00DB96A9 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554CE52BD6170A00DB96A9 /* LoadingIndicator.swift */; };
 		CE554CE82BD61FA300DB96A9 /* MorphingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554CE72BD61FA300DB96A9 /* MorphingAnimation.swift */; };
+		CE554CEA2BD635DA00DB96A9 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554CE92BD635DA00DB96A9 /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CE554CDA2BD6128400DB96A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE554CE52BD6170A00DB96A9 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		CE554CE72BD61FA300DB96A9 /* MorphingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimation.swift; sourceTree = "<group>"; };
+		CE554CE92BD635DA00DB96A9 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				CE554CD52BD6128300DB96A9 /* ContentView.swift */,
 				CE554CE52BD6170A00DB96A9 /* LoadingIndicator.swift */,
 				CE554CE72BD61FA300DB96A9 /* MorphingAnimation.swift */,
+				CE554CE92BD635DA00DB96A9 /* TransitionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				CE554CE62BD6170A00DB96A9 /* LoadingIndicator.swift in Sources */,
 				CE554CD62BD6128300DB96A9 /* ContentView.swift in Sources */,
 				CE554CE82BD61FA300DB96A9 /* MorphingAnimation.swift in Sources */,
+				CE554CEA2BD635DA00DB96A9 /* TransitionView.swift in Sources */,
 				CE554CD42BD6128300DB96A9 /* SwiftAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
